@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database Name="thrift_shop" EntityNamespace="ThriftShopContext" ContextNamespace="ThriftShopContext" Class="ThriftShopDataContext" xmlns:ed="http://devart.com/schemas/EntityDeveloper/1.0" ed:Guid="5853345a-8eb5-4b3f-8b67-017fe85371fc" Provider="Devart.Data.MySql.Linq.Provider.MySqlDataProvider, Devart.Data.MySql.Linq" Extended="true" xmlns="http://schemas.devart.com/linqconnect/mapping">
+  <Connection Mode="ConnectionString" ConnectionString="User Id=root;Password=root;Host=localhost;Database=thrift_shop;Persist Security Info=True" Provider="Devart.Data.MySql" />
+  <Table Name="thrift_shop.brand" Member="Brands">
+    <Type Name="Brand" ed:Guid="f4ba25b7-d99b-4455-9f36-e5e0a7c514fc">
+      <Column Name="brand_id" Member="BrandId" Type="System.Int32" AutoSync="OnInsert" DbType="INT(8) NOT NULL AUTO_INCREMENT" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="8" ed:ValidateRequired="true" ed:Guid="1c4f0081-9a6b-474c-85be-203112d14704" />
+      <Column Name="brand_name" Member="BrandName" Type="System.String" DbType="VARCHAR(45) NULL" CanBeNull="true" UpdateCheck="Never" MaxLength="45" Unicode="true" ed:ValidateMaxLength="45" ed:ValidateRequired="false" ed:Guid="69db1648-1c70-4441-91fd-da84a6a4be2a" />
+      <Association Name="Brand_Product" ed:AssociationGuid="76e6f8c3-7020-475c-90af-0b2388233add" Member="Products" ed:Guid="e5f1f509-0e2a-47cb-8aed-edb829fb0700" ThisKey="BrandId" OtherKey="BrandId" Type="Product" />
+    </Type>
+  </Table>
+  <Table Name="thrift_shop.product" Member="Products">
+    <Type Name="Product" ed:Guid="9fdc1170-6142-4ec4-864f-4483098a3dc5">
+      <Column Name="product_id" Member="ProductId" Type="System.Int32" AutoSync="OnInsert" DbType="INT(8) NOT NULL AUTO_INCREMENT" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="8" ed:ValidateRequired="true" ed:Guid="12109a1b-c038-4113-82b2-9734ed43e6f6" />
+      <Column Name="product_name" Member="ProductName" Type="System.String" DbType="VARCHAR(45) NOT NULL" CanBeNull="false" UpdateCheck="Never" MaxLength="45" Unicode="true" ed:ValidateMaxLength="45" ed:ValidateRequired="true" ed:Guid="a303d4f3-fc9b-4f8d-ae92-a19175a6c375" />
+      <Column Name="product_category" Member="ProductCategory" Type="System.String" DbType="VARCHAR(45) NOT NULL" CanBeNull="false" UpdateCheck="Never" MaxLength="45" Unicode="true" ed:ValidateMaxLength="45" ed:ValidateRequired="true" ed:Guid="e356c0f7-ac18-45d1-a1e5-286a6e7fc67f" />
+      <Column Name="product_price" Member="ProductPrice" Type="System.Double" DbType="DOUBLE NOT NULL" CanBeNull="false" UpdateCheck="Never" ed:ValidateRequired="true" ed:Guid="f775d51f-d164-4378-bd41-e85ebe4b2019" />
+      <Column Name="brand_id" Member="BrandId" Type="System.Int32" DbType="INT(8) NOT NULL" CanBeNull="false" UpdateCheck="Never" Precision="8" ed:ValidateRequired="true" ed:Guid="27c1de6e-e373-496c-987e-8da16a0d5d42" />
+      <Association Name="Brand_Product" ed:AssociationGuid="76e6f8c3-7020-475c-90af-0b2388233add" Member="Brand" ed:Guid="c5a1f4fc-c41b-49e2-ba5d-989d076709e5" ThisKey="BrandId" OtherKey="BrandId" Type="Brand" DeleteRule="NO ACTION" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

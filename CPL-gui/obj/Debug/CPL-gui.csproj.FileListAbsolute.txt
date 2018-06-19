@@ -1,0 +1,17 @@
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\bin\Debug\CPL-gui.exe.config
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\obj\Debug\CPL-gui.csprojResolveAssemblyReference.cache
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\obj\Debug\CPL_gui.Form1.resources
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\obj\Debug\CPL_gui.Properties.Resources.resources
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\obj\Debug\CPL_gui.Sort.resources
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\obj\Debug\CPL-gui.csproj.GenerateResource.Cache
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\bin\Debug\CPL-gui.exe
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\bin\Debug\CPL-gui.pdb
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\obj\Debug\CPL-gui.exe
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\obj\Debug\CPL-gui.pdb
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\bin\Debug\Devart.Data.dll
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\bin\Debug\Devart.Data.Linq.dll
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\bin\Debug\Devart.Data.MySql.dll
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\bin\Debug\Devart.Data.MySql.Linq.dll
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\bin\Debug\Devart.Data.xml
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\bin\Debug\Devart.Data.MySql.xml
+c:\users\abdullah\documents\visual studio 2015\Projects\CPL-gui\CPL-gui\obj\Debug\CPL_gui.Linq.resources
